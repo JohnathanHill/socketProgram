@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
             exit(1);
         }
         buf[numbytes] = '\0';
-        if( !strcmp("q",buf))
+        if(!strcmp("q",buf))
              break;
         printf("Received: %s\n",buf);
         sleep(1);
